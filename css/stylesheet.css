@@ -4,8 +4,11 @@
 
 .video {
   min-width: 100vw;
-  min-height: 100vh;
   background-color: blue;
+}
+
+video {
+  width: 100vw;
 }
 
 .products {
@@ -25,9 +28,4 @@
   min-width: 100vw;
   min-height: 100vh;
   background-color: red;
-}
-
-video {
-  width: 100vw;
-  min-height: 100vh;
 }
