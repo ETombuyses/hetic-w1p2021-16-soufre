@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
+nav ul {
+  background-color: black;
+  display: flex;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+
 .video {
   min-width: 100vw;
-  background-color: blue;
 }
 
 video {
@@ -14,7 +24,7 @@ video {
 .products {
   min-width: 100vw;
   min-height: 100vh;
-  background-color: red;
+  background-color:black;
 }
 
 .articles {
@@ -22,7 +32,6 @@ video {
   min-height: 100vh;
   background-color: blue;
 }
-
 
 .history {
   min-width: 100vw;
