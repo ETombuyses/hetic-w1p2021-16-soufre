@@ -1,6 +1,27 @@
 @font-face {
   font-family: "Avenir";
-  src: url("fonts/Roboto.woff2") format("woff2"), url("fonts/Roboto.woff") format("woff");
+  src: url("fonts/avenir/aeh-webfont.woff2") format("woff2"), url("fonts/avenir/aeh-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/avenir/avenir_roman-webfont.woff2") format("woff2"), url("fonts/avenir/avenir_roman-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url("fonts/campton/campton-lightdemo-webfont.woff2") format("woff2"), url("fonts/campton/campton-lightdemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+  @font-face {
+    font-family: "Campton";
+    src: url("fonts/campton/campton-bolddemo-webfont.woff2") format("woff2"), url("fonts/campton/campton-bolddemo-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
