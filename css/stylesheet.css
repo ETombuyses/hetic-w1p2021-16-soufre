@@ -1,6 +1,6 @@
 /* Noir : 000000
 Blanc : FFFFFF
-Girs : 292A2E prout prout*/
+Girs : 292A2E */
 
 * {
   box-sizing: border-box;
@@ -20,6 +20,20 @@ video {
   width: 100vw;
 }
 
+h2{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+} 
+
+.h2-shape {
+  background-color: #292A2E;
+}
+
 .products-bloc {
   background-color:black;
   display: flex;
@@ -29,7 +43,6 @@ video {
 
 .product {
 height: 60vh;
-margin: 30px 30px 0 30px;
 padding: 50px;
 background: black;
 display: flex;
@@ -40,18 +53,28 @@ text-align: center;
 border-top: 1px solid white;
 }
 
+/* .product:first-child {
+  margin: 0px 30px 0px 30px;
+}
+*/
+.product:not(:first-child), .product:not(:last-child) {
+  margin: 30px 30px 0px 30px;
+} 
+
 .product:last-child {
-  margin-bottom: 10vw;
+  margin-bottom: 30px;
 }
 
 .product img {
   height: 70%;
 }
 
-h2 {
-  font-size: 18px;
+h3 {
+  font-size: 16px;
+  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
 } 
 
 p {
@@ -61,12 +84,18 @@ p {
 
 .articles {
   min-width: 100vw;
-  background-color: #292A2E
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+}
+
+.articles a {
+  color: white;
+  text-decoration: none;
 }
 
 
-
-footer {
+.footer-links {
   min-width: 100vw;
   height: 80px;
   display: flex;
@@ -75,30 +104,23 @@ footer {
   background-color: black;
 }
 
-footer a img {
+.footer-links a .logo {
+width: 60px;
+margin-left : 20px;
+margin-right: 20px;
+}
+
+.footer-links a .icon {
   width: 20px;
   height: 20px;
   margin-left : 20px;
   margin-right: 20px;
 }
 
-
-.footer-before {
-  background-color: black;
-  height: 5px;
-  display: flex;
-  justify-content: center;
+.copyright {
+  text-align : center;
+  margin: 5px;
 }
-
-.footer-bar {
-  height: 2px;
-  width: 90vw;
-  background-color: white;
-  opacity: 0.5;
-}
-
-
-
 
 @media (min-width: 320px) {
 
@@ -124,6 +146,7 @@ font-family: "Avenir";
   height: 45px;;
   float: left;
 }
+
 nav{
   background-color: black;
   color: white;
