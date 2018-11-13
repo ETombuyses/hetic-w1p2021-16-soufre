@@ -6,6 +6,11 @@ Girs : 292A2E prout prout*/
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Avenir";
+  font-size: 14px;
+  line-height: 20px;
+}
 
 .video {
   min-width: 100vw;
@@ -15,38 +20,50 @@ video {
   width: 100vw;
 }
 
-.products {
-  min-width: 100vw;
+.products-bloc {
   background-color:black;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 .product {
-height: 200px;
-background:black;
-color: white;
+height: 60vh;
+margin: 10vw 10vw 0 10vw;
+background: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-top: 1px solid white;
 }
+
+.product:last-child {
+  margin-bottom: 10vw;
+}
+
+.product img {
+  width: 80%;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+p {
+  opacity: 0.7;
+}
+
 
 .articles {
   min-width: 100vw;
   background-color: #292A2E
 }
 
-.separator {
-  background-color: black;
-  height: 10px;
-  width: 100vw;
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
 
-}
-
-.product-separation {
-  background-color: white;
-  height: 1px;
-  width: 40vw;
-  opacity: 0.5;
-}
 
 footer {
   min-width: 100vw;
