@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.video {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: blue;
+}
+
+.products {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: red;
+}
+
+.articles {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: blue;
+}
+
+
+.history {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: red;
+}
+
+video {
+  width: 100vw;
+  min-height: 100vh;
+}
