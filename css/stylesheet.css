@@ -69,23 +69,22 @@ border-top: 1px solid white;
   height: 70%;
   background-color: pink;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 .image-front {
   height: 100%;
   position: absolute;
   z-index: 5;
+  margin: auto;
 }
 
 .image-back {
-  z-index: 2;
+  z-index: 3;
   height: 100%;
   position: absolute;
   opacity: 0.5;
   transform: translateX(60px);
 }
-
-
 
 h3 {
   font-size: 16px;
@@ -187,15 +186,10 @@ nav{
 
 /* articles */
 
-@media (max-width: 320px) {
-
-body {
+.product-page{
+  background-color: black;    
   display: flex;
-  flex-direction : column;
-}
-
-.page-product{
-  background-color: black;            
+  flex-direction : column;        
 }
 
 header {
@@ -204,7 +198,7 @@ header {
   padding: 20px;
 }
 
-
+@media (max-width: 320px) {
 
 
 .brand {
