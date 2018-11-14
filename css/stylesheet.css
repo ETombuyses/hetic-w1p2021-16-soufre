@@ -14,7 +14,7 @@ body {
 
 .video {
   min-width: 100vw;
-  margin: -8px;
+  margin-bottom: -8px;
 }
 
 video {
@@ -73,13 +73,21 @@ border-top: 1px solid white;
   z-index: 2;
   width: 100%;
 }
+.image-front-alone {
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .image-front {
   height: 100%;
   position: absolute;
   z-index: 5;
   margin: auto;
-  right: 48%;
-  /* transform: translateX(-50%); */
+  right: 45%;
 }
 
 .image-back {
@@ -87,7 +95,7 @@ border-top: 1px solid white;
   height: 100%;
   position: absolute;
   opacity: 0.5;
-  right: 48%;
+  right: 45%;
   transform: translateX(50%);
 }
 
