@@ -147,47 +147,6 @@ margin-right: 20px;
 
 
 
-@media (min-width: 320px) {
-
-#navbar {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  max-height: 45px;
-  font-size: 14px;
-}
-
-nav li{
-padding: 45px;
-}
-
-nav li a {
-text-decoration: none;
-color: white;
-font-family: "Avenir";
-}
-
-.logo-minuscule{
-  height: 45px;;
-  float: left;
-}
-
-nav{
-  background-color: black;
-  color: white;
-  height: 50px;
-}
-#nav-mobile{
-  background-color: black;
-  width: 38px;
-  height: 38px;
-  position: sticky;
-}
-#nav-barre.is-open{
-  background-color: red;
-}
-}
-
 
 
 /* fiches produit*/
@@ -307,7 +266,137 @@ header {
   color: #828282;
 }
 
+/* NAV */
 
+nav {
+  position: sticky;  
+  z-index: 10;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0a0a0ad8, #43434352); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000d8, #43434352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: background-color 1.5s,height 0.9s, width 0.9s, left 0.9s, bottom 0.9s, border-radius 1s;
+  }
+  
+  #logo-armani-nav {
+    width: 200px; 
+    height: 50px;
+  }
+  .flex-box-of-logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ nav li{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.829);
+    border-bottom:1px rgba(255, 255, 255, 0.623) solid;
+    padding-bottom: 20px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    font-size: 0px;
+    transition:  font-size 1s;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav.is-open ul li{
+    font-size: 35px;
+  }
+  
+  body{
+    background-color:rgb(255, 255, 255);
+  }
+  
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .open-icon,
+  .open-icon::before,
+  .open-icon::after {
+    width: 30px;
+    height: 1px;
+    background: white;
+  }
+  
+  .open-icon::before,
+  .open-icon::after {
+    content: '';
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  .open-icon::before {
+    transform: translateY(-8px);
+  }
+  
+  nav.is-open .open-icon {
+    background-color: transparent;
+  }
+  
+  nav.is-open .open-icon::before {
+    transform: translateY(2px) rotate(45deg);
+  }
+  
+  nav.is-open .open-icon::after {
+    transform: translateY(1px) rotate(-45deg);
+  }
+  
+  .open-icon {
+    transition: background-color 0.3s;
+  }
+  
+  #nav.is-open{
+    height: 100vh;
+    width: 100vw;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000d7, #434343b6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000d7, #434343b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  nav.is-open ul{
+    transform: none;
+  }
+  
+  nav:not(.is-open) ul {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav:not(.is-open) ul li{
+    border-bottom: none;
+  }
 
 
 
