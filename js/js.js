@@ -5,6 +5,25 @@ open.addEventListener('click', function() {
 });
 
 
+
+var accueil = document.getElementById('navaccueil');
+var montres = document.getElementById('navmontres');
+var marque = document.getElementById('navmarque');
+
+accueil.addEventListener('click', function() {
+  nav.classList.toggle('is-open');
+});
+montres.addEventListener('click', function() {
+  nav.classList.toggle('is-open');
+});
+marque.addEventListener('click', function() {
+  nav.classList.remove('is-open');
+});
+
+
+
+
+
 var gendermen1 = document.getElementById('gendermen1');
 var genderwomen1 = document.getElementById('genderwomen1');
 var montre1 = document.getElementById('montre1');
@@ -27,8 +46,6 @@ montre2.classList.remove('image-back');
 montre1.classList.add('image-back');
 montre2.classList.add('image-front');
 });
-
-
 
 gendermen2.addEventListener('click', function() {
   montre4.classList.remove('image-front');
