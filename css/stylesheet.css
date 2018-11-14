@@ -54,10 +54,8 @@ text-align: center;
 border-top: 1px solid white;
 }
 
-/* .product:first-child {
-  margin: 0px 30px 0px 30px;
-}
-*/
+
+
 .product:not(:first-child), .product:not(:last-child) {
   margin: 30px 30px 0px 30px;
 } 
@@ -82,7 +80,7 @@ border-top: 1px solid white;
   transform: translateX(-50%);
 }
 
-.image-front {
+.image-front img{
   height: 100%;
   position: absolute;
   z-index: 5;
@@ -90,7 +88,7 @@ border-top: 1px solid white;
   right: 45%;
 }
 
-.image-back {
+.image-back img{
   z-index: 3;
   height: 100%;
   position: absolute;
@@ -98,6 +96,16 @@ border-top: 1px solid white;
   right: 45%;
   transform: translateX(50%);
 }
+
+.image-back:hover img{
+  z-index: 5;
+  opacity: 1;
+   }
+  
+.image-back:hover + a img {
+  z-index: 3;
+  opacity: 0.5;
+  }
 
 h3 {
   font-size: 16px;
@@ -151,7 +159,9 @@ margin-right: 20px;
 
 .copyright {
   text-align : center;
-  margin: 5px;
+  background-color: black;
+  color:  ;
+  padding: 20px;
 }
 
 
@@ -170,6 +180,8 @@ header {
   background-color : white;
   justify-content: center;
   padding: 20px;
+  display: flex;
+  flex-direction : column; 
 }
 
 .brand {
@@ -180,6 +192,8 @@ header {
   color : black;
   font-size : 16px;
   line-height : 17px;
+  display: flex;
+  flex-direction : column; 
 }
 
 .item-name {
@@ -191,6 +205,8 @@ header {
   line-height: 21px;
   color : black;
   letter-spacing: 3px;
+  display: flex;
+  flex-direction : column; 
 }
 
 
@@ -202,10 +218,13 @@ header {
   font-size: 14px;
   line-height : 15px;
   color : black;  
+  display: flex;
+  flex-direction : column; 
 }
 
 .product-description {
   background-color: white;
+  
 }
 
 .item-description {
@@ -219,6 +238,8 @@ header {
   line-height: 17px;
   color : black;
   font-size: 13px;
+  display: flex;
+  flex-direction : column; 
 }
 
 .separator {
@@ -273,6 +294,20 @@ header {
   font-size: 13px;
   line-height: 17px;
   color: #828282;
+}
+
+.product-page-image {
+  height : 50vh;  
+}
+
+.details {
+  text-align : justify;
+  font-family: "Avenir";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: black;
+  padding-bottom: 30px;
 }
 
 /* NAV */
@@ -410,5 +445,10 @@ nav {
 
 
 
+
+
+
+
+  /*  TEST hover montres  */
 
 
