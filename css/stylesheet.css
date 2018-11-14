@@ -69,15 +69,20 @@ border-top: 1px solid white;
   height: 70%;
   background-color: pink;
   position: relative;
-  
+  z-index: 1;
 }
-.product-images img {
+.image-front {
   height: 100%;
+  position: absolute;
+  z-index: 5;
 }
 
 .image-back {
-  z-index: 0;
+  z-index: 2;
   height: 100%;
+  position: absolute;
+  opacity: 0.5;
+  transform: translateX(60px);
 }
 
 
