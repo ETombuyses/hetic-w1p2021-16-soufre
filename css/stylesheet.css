@@ -1,7 +1,3 @@
-/* Noir : 000000
-Blanc : FFFFFF
-Girs : 292A2E */
-
 * {
   box-sizing: border-box;
 }
@@ -29,6 +25,7 @@ h2{
   text-transform: uppercase;
   text-align: center;
   color:white;
+  letter-spacing: 5px;
 } 
 
 .h2-shape {
@@ -91,7 +88,7 @@ position: relative;
 
 .image-back img{
   z-index: 3;
-  height: 100%;
+  height: 70%;
   position: absolute;
   opacity: 0.5;
   right: 45%;
@@ -101,11 +98,13 @@ position: relative;
 .image-back:hover img{
   z-index: 5;
   opacity: 1;
+  height: 100%;
    }
   
 .image-back:hover + a img {
   z-index: 3;
   opacity: 0.5;
+  height: 70%;
   }
 
 h3 {
@@ -115,6 +114,7 @@ h3 {
   margin-bottom: 20px;
   color: white;
   font-family: "Champagne";
+  letter-spacing: 5px;
 
 } 
 
