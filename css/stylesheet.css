@@ -65,9 +65,22 @@ border-top: 1px solid white;
   margin-bottom: 30px;
 }
 
-.product img {
+.product-images {
   height: 70%;
+  background-color: pink;
+  
 }
+.product-images img {
+  height: 100%;
+}
+
+.image-back {
+  z-index: 0;
+  position: absolute;
+  height: 100%;
+}
+
+
 
 h3 {
   font-size: 16px;
@@ -121,6 +134,8 @@ margin-right: 20px;
   text-align : center;
   margin: 5px;
 }
+
+
 
 @media (min-width: 320px) {
 
