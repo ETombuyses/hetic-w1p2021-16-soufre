@@ -68,6 +68,7 @@ border-top: 1px solid white;
 .product-images {
   height: 70%;
   background-color: pink;
+  position: relative;
   
 }
 .product-images img {
@@ -76,7 +77,6 @@ border-top: 1px solid white;
 
 .image-back {
   z-index: 0;
-  position: absolute;
   height: 100%;
 }
 
@@ -178,6 +178,9 @@ nav{
 }
 }
 
+
+
+/* articles */
 
 @media (max-width: 320px) {
 
