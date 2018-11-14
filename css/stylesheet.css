@@ -170,21 +170,26 @@ margin-right: 20px;
 .gendermen {
   height: 15px;
   width: 15px;
-  position: absolute;
+  /* position: absolute;
   z-index: 50;
   left: -10px;
-  top: 35%;
+  top: 35%; */
 }
 
 .genderwomen {
   height: 20px;
   width: 20px;
-  position: absolute;
+  /* position: absolute;
   z-index: 50;
   right: -5px;
-  top: 35%;
-}
+  top: 35%; */
+} 
 
+.genders {
+  display: flex;
+  justify-content: center;
+
+}
 /* fiches produit*/
 
 .product-page{
@@ -460,12 +465,8 @@ nav {
   }
 
 
-
-
-
-
-
-
-  /*  TEST hover montres  */
-
-
+  @media (min-width: 500px) {
+    .gendermen, .genderwomen {
+      display: none;
+    }
+  }
