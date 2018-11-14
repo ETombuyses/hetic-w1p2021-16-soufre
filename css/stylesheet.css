@@ -41,7 +41,7 @@ h2{
 
 .product {
 height: 60vh;
-padding: 50px;
+padding: 30px;
 background: black;
 display: flex;
 flex-direction: column;
@@ -109,10 +109,11 @@ position: relative;
   }
 
   .gendermen, .genderwomen {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-
   
   .genders {
     display: flex;
@@ -138,27 +139,62 @@ p {
 }
 
 
+
+
 .articles {
   display: flex;
   flex-flow: column;
+
 }
 
 .news1 {
-  background-image: url("../medias/article1.png");
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url("../medias/article1.png");
   background-repeat: no-repeat;
-  height: 53vh;
+  background-size: cover;
   padding: 5vh;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
   align-items: center;
-}
-
-.news1 a {
+  justify-content: center;
   color: white;
-  text-decoration: none;
   text-align: center;
 }
 
+.news2 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url("../medias/article2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.news1 a, .news2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.readmore {
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;;
+  margin-top: 20px;
+  font-weight: bold;
+}
 
 .footer-links {
   min-width: 100vw;
@@ -171,15 +207,15 @@ p {
 
 .footer-links a .logo {
 width: 60px;
-margin-left : 20px;
-margin-right: 20px;
+margin-left : 1vw;
+margin-right: 1vw;
 }
 
 .footer-links a .icon {
   width: 20px;
   height: 20px;
-  margin-left : 20px;
-  margin-right: 20px;
+  margin-left : 1vw;
+  margin-right: 1vw;
 }
 
 .copyright {
@@ -339,7 +375,7 @@ margin-right: 20px;
   line-height: 17px;
   color: black;
   padding-bottom: 30px;
-}
+} 
 /* 
 .product-page{
   background-color: black;    
