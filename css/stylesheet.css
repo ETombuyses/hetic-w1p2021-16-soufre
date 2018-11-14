@@ -67,15 +67,19 @@ border-top: 1px solid white;
 
 .product-images {
   height: 70%;
-  background-color: pink;
+  background-color: black;
   position: relative;
   z-index: 2;
+  width: 100%;
 }
 .image-front {
   height: 100%;
   position: absolute;
   z-index: 5;
   margin: auto;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .image-back {
@@ -92,6 +96,8 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
+  font-family: "Avenir";
+
 } 
 
 p {
@@ -184,7 +190,7 @@ nav{
 
 
 
-/* articles */
+/* fiches produit*/
 
 .product-page{
   background-color: black;    
@@ -197,9 +203,6 @@ header {
   justify-content: center;
   padding: 20px;
 }
-
-@media (max-width: 320px) {
-
 
 .brand {
   font-family: "Avenir";
@@ -221,6 +224,7 @@ header {
   color : black;
   letter-spacing: 3px;
 }
+
 
 .item-price {
   font-family: "Avenir";
@@ -248,6 +252,7 @@ header {
   color : black;
   font-size: 13px;
 }
+
 .separator {
   height: 2px;
   width: 90vw;
@@ -259,6 +264,7 @@ header {
 .item-color{
   padding: 30px;
 }
+
 
 .text-color{
   text-align: justify;
@@ -301,7 +307,7 @@ header {
   color: #828282;
 }
 
-}
+
 
 
 
