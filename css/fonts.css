@@ -15,45 +15,38 @@
 
   
 @font-face {
-  font-family: 'champagne__limousinesBdIt';
-  src: url('champagne__limousines_bold_italic-webfont.woff2') format('woff2'),
-       url('champagne__limousines_bold_italic-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: "Champagne";
+  src: url("../fonts/champagne/champagne__limousines_bold_italic-webfont.woff2") format("woff2"),
+       url("../fonts/champagne/champagne__limousines_bold_italic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+
+@font-face {
+  font-family: "Champagne";
+  src: url("../fonts/champagne/champagne__limousines_bold-webfont.woff2") format("woff2"),
+       url("../fonts/champagne/champagne__limousines_bold-webfont.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
 
 }
 
 
-
-
 @font-face {
-  font-family: 'champagne__limousinesbold';
-  src: url('champagne__limousines_bold-webfont.woff2') format('woff2'),
-       url('champagne__limousines_bold-webfont.woff') format('woff');
+  font-family: "Champagne";
+  src: url("../fonts/champagne/champagne__limousines_italic-webfont.woff2") format("woff2"),
+       url("../fonts/champagne/champagne__limousines_italic-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 
 }
 
-
-
-
 @font-face {
-  font-family: 'champagne__limousinesitalic';
-  src: url('champagne__limousines_italic-webfont.woff2') format('woff2'),
-       url('champagne__limousines_italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'champagne__limousinesregular';
-  src: url('champagne__limousines-webfont.woff2') format('woff2'),
-       url('champagne__limousines-webfont.woff') format('woff');
+  font-family: "Champagne";
+  src: url("../fonts/champagne/champagne__limousines-webfont.woff2") format("woff2"),
+       url("../fonts/champagne/champagne__limousines-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 
