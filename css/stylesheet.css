@@ -139,15 +139,27 @@ p {
 
 
 .articles {
-  min-width: 100vw;
-  background-color: black;
   display: flex;
   flex-flow: column;
 }
 
-.articles a {
+.news1 {
+  background-image: url("../medias/article1.png");
+  background-repeat: no-repeat;
+  height: 53vh;
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news1 a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
