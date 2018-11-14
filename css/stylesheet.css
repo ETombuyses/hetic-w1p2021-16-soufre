@@ -68,6 +68,7 @@ position: relative;
   position: relative;
   z-index: 2;
   width: 100%;
+  transition-duration: 2s;
 }
 .image-front-alone {
   height: 100%;
@@ -76,6 +77,7 @@ position: relative;
   margin: auto;
   left: 50%;
   transform: translateX(-50%);
+  transition-duration: 2s;
 }
 
 .image-front img{
@@ -85,6 +87,8 @@ position: relative;
   margin: auto;
   right: 50%;
   transform: translateX(20%);
+  transition-duration: 1s;
+  transition-delay: 0.2;
 }
 
 .image-back img{
@@ -94,18 +98,24 @@ position: relative;
   opacity: 0.5;
   left: 50%;
   transform: translateX(-20%);
+  transition-duration: 1s;
+  transition-delay: 0.2;
 }
 
 .image-back:hover img{
   z-index: 5;
   opacity: 1;
   height: 100%;
+  transition-duration: 1s;
+  transition-delay: 0.2;
    }
   
 .image-back:hover + a img {
   z-index: 3;
   opacity: 0.5;
   height: 70%;
+  transition-duration: 1s;
+  transition-delay: 0.2;
   }
 
   .gendermen, .genderwomen {
