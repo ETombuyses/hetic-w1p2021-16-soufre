@@ -26,8 +26,6 @@ watches.classList.toggle('montreOption');
 news.classList.remove('News');
 });
 
-
-
 watchesproducts.addEventListener('click', function() {
 navbar.classList.remove('is-open');
 watches.classList.remove('montreOption');
