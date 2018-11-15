@@ -393,6 +393,7 @@ p {
   background-color: black;
   text-align: center;
   padding-top: 75px;
+  z-index: 2;
 }
 
 .watch-image {
