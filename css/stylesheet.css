@@ -2,31 +2,19 @@
   box-sizing: border-box;
 }
 
-/* height media query intermédiaire jouer avec (images front)*/
-
-body {
-  font-family: "Avenir";
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.video {
-  min-width: 100vw;
-  margin-bottom: -8px;
-}
-
 video {
   width: 100vw;
 }
 
-.videohome {
-  display: none;
+
+
+
+.flex-box-row {
+  display: flex;
+  justify-content: center;
 }
 
-.background-image-home {
-  display: block;
-  width: 100vw;
-}
+
 
 h2 {
   font-size: 20px;
@@ -37,12 +25,11 @@ h2 {
   text-align: center;
   color: white;
   letter-spacing: 5px;
+  font-family: "Avenir";
 }
 
 .h2-shape {
   background-color: #292A2E;
-  display: flex;
-  justify-content: center;
 }
 
 .products-bloc {
@@ -162,6 +149,9 @@ h3 {
 p {
   opacity: 0.7;
   font-family: "Avenir";
+  font-size: 14px;
+  font-family: "Avenir";
+  line-height: 20px;
 }
 
 
@@ -421,8 +411,6 @@ flex-flow: column;
   padding: 30px;
   width: 100vw;
 }
-
-
 
 
 .watch-colors {
@@ -733,6 +721,15 @@ nav:not(.is-open) ul li {
 
 
 @media (min-width: 640px) {
+
+  video {
+    display: block;
+  }
+
+  .banner-home-mobile {
+    display: none;
+  }
+
   .products-bloc {
     flex-direction: row;
     justify-content: space-evenly;
@@ -793,20 +790,25 @@ nav:not(.is-open) ul li {
     padding-right: 30px;
     text-align: right;
   }
-}
 
-@media (min-width: 400px) {
-
-  .videohome {
-    display: block;
-  }
-
-  .background-image-home {
-    display: none;
-  }
-
-  .parent-flex {
-   
+  .parentflex {
     flex-flow: row;
+    display: flex;
+    }  
+
+
+    .brand-item {
+      width: 50vw;
+
+    }
+
+    .product-description {
+      width: 50vw;
+    }
+
+    .product-page-image {
+      width: 50vw;
+      height: 100%;
     }
 }
+
