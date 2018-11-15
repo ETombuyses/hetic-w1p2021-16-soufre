@@ -628,54 +628,8 @@ nav {
   height: initial;
   width: initial;
 }
-  
-  #logo-armani-nav {
-    width: 200px; 
-    height: 50px;
-  }
 
-  .flex-box-of-logo{
-    display: flex;
-    justify-content: center;
-  }
-  
-
-  nav ul {
-    overflow: hidden;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 100vh;
-    width: 100vw;
-  }
-  
- nav li{
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    color: rgba(255, 255, 255, 0.829);
-    border-bottom:1px rgba(255, 255, 255, 0.623) solid;
-    padding-bottom: 20px;
-    padding-left: 50px ;
-    padding-right: 50px;
-    font-size: 0px;
-    transition: font-size 1s;
-  }
-
-  nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav.is-open ul li{
-    font-size: 35px;
-  }
-  
-  body{
-    background-color:rgb(255, 255, 255);
-  }
-  
+/* Quand le menu buger est ouvert  */
   .open {
     display: flex;
     justify-content: center;
