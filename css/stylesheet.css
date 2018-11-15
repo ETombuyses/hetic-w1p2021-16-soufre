@@ -151,8 +151,6 @@ p {
 }
 
 
-
-
 .articles {
   display: flex;
   flex-flow: column;
@@ -173,6 +171,7 @@ p {
   justify-content: center;
   color: white;
   text-align: center;
+  width: 50%;
 }
 
 .news2 {
@@ -189,6 +188,7 @@ p {
   justify-content: center;
   color: white;
   text-align: center;
+  width: 50%;
 }
 
 .news1 a, .news2 a {
@@ -663,6 +663,7 @@ nav {
   @media (min-width: 640px) {
     .products-bloc {
       flex-direction: row;
+      justify-content: space-evenly;
     }
     .gendermen, .genderwomen {
       display: none;
