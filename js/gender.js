@@ -1,4 +1,3 @@
-
 /* pour changer entre montre homme ou femme */
 var gendermen1 = document.getElementById('gendermen1');
 var genderwomen1 = document.getElementById('genderwomen1');
@@ -16,11 +15,11 @@ gendermen1.addEventListener('click', function() {
   watch1.classList.add('image-front');
 });
 genderwomen1.addEventListener('click', function() {
- 
-watch1.classList.remove('image-front');
-watch2.classList.remove('image-back');
-watch1.classList.add('image-back');
-watch2.classList.add('image-front');
+
+  watch1.classList.remove('image-front');
+  watch2.classList.remove('image-back');
+  watch1.classList.add('image-back');
+  watch2.classList.add('image-front');
 });
 
 gendermen2.addEventListener('click', function() {
@@ -30,9 +29,9 @@ gendermen2.addEventListener('click', function() {
   watch3.classList.add('image-front');
 });
 genderwomen2.addEventListener('click', function() {
- 
-watch3.classList.remove('image-front');
-watch4.classList.remove('image-back');
-watch3.classList.add('image-back');
-watch4.classList.add('image-front');
+
+  watch3.classList.remove('image-front');
+  watch4.classList.remove('image-back');
+  watch3.classList.add('image-back');
+  watch4.classList.add('image-front');
 });

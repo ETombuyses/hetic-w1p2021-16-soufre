@@ -8,7 +8,6 @@ burgermenu.addEventListener('click', function() {
   news.classList.remove('News');
 });
 
-
 /* pour que le menu se referme a chaque action */
 var home = document.getElementById('navaccueil');
 /**/
@@ -22,29 +21,29 @@ var newsarticles = document.getElementById('navBackNews');
 
 /**/
 watchesopen.addEventListener('click', function() {
-watches.classList.toggle('montreOption');
-news.classList.remove('News');
+  watches.classList.toggle('montreOption');
+  news.classList.remove('News');
 });
 
 watchesproducts.addEventListener('click', function() {
-navbar.classList.remove('is-open');
-watches.classList.remove('montreOption');
-newsarticles.classList.remove('navArticle');
-news.classList.remove('News');
+  navbar.classList.remove('is-open');
+  watches.classList.remove('montreOption');
+  newsarticles.classList.remove('navArticle');
+  news.classList.remove('News');
 });
 /**/
 
 newsopen.addEventListener('click', function() {
-news.classList.toggle('News');
-watches.classList.remove('montreOption');
-newsarticles.classList.remove('navArticle');
-news.classList.remove('montreOption');
+  news.classList.toggle('News');
+  watches.classList.remove('montreOption');
+  newsarticles.classList.remove('navArticle');
+  news.classList.remove('montreOption');
 });
 
 newsarticles.addEventListener('click', function() {
-watches.classList.remove('montreOption');
-news.classList.remove('News');
-navbar.classList.toggle('is-open');
+  watches.classList.remove('montreOption');
+  news.classList.remove('News');
+  navbar.classList.toggle('is-open');
 });
 home.addEventListener('click', function() {
   navbar.classList.toggle('is-open');

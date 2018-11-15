@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Avenir";
-  src: url("../fonts/avenir/aeh-webfont.woff2") format("woff2"), 
-       url("../fonts/avenir/aeh-webfont.woff") format("woff");
+  src: url("../fonts/avenir/aeh-webfont.woff2") format("woff2"),
+    url("../fonts/avenir/aeh-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Avenir";
-  src: url("../fonts/avenir/avenir_roman-webfont.woff2") format("woff2"), 
-       url("../fonts/avenir/avenir_roman-webfont.woff") format("woff");
+  src: url("../fonts/avenir/avenir_roman-webfont.woff2") format("woff2"),
+    url("../fonts/avenir/avenir_roman-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: "Champagne";
   src: url("../fonts/champagne/champagne__limousines_bold_italic-webfont.woff2") format("woff2"),
-       url("../fonts/champagne/champagne__limousines_bold_italic-webfont.woff") format("woff");
+    url("../fonts/champagne/champagne__limousines_bold_italic-webfont.woff") format("woff");
   font-weight: bold;
   font-style: italic;
 
@@ -26,7 +26,7 @@
 @font-face {
   font-family: "Champagne";
   src: url("../fonts/champagne/champagne__limousines_bold-webfont.woff2") format("woff2"),
-       url("../fonts/champagne/champagne__limousines_bold-webfont.woff") format("woff");
+    url("../fonts/champagne/champagne__limousines_bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -34,7 +34,7 @@
 @font-face {
   font-family: "Champagne";
   src: url("../fonts/champagne/champagne__limousines_italic-webfont.woff2") format("woff2"),
-       url("../fonts/champagne/champagne__limousines_italic-webfont.woff") format("woff");
+    url("../fonts/champagne/champagne__limousines_italic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
@@ -42,7 +42,7 @@
 @font-face {
   font-family: "Champagne";
   src: url("../fonts/champagne/champagne__limousines-webfont.woff2") format("woff2"),
-       url("../fonts/champagne/champagne__limousines-webfont.woff") format("woff");
+    url("../fonts/champagne/champagne__limousines-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
