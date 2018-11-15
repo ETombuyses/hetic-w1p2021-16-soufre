@@ -4,9 +4,8 @@
 
 video {
   width: 100vw;
+  margin-bottom: -4px;
 }
-
-
 
 
 .flex-box-row {
@@ -14,7 +13,24 @@ video {
   justify-content: center;
 }
 
+.fle-box-column {
+  display: flex;
+  flex-direction: column;
+}
 
+.center-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
 
 h2 {
   font-size: 20px;
@@ -28,31 +44,22 @@ h2 {
   font-family: "Avenir";
 }
 
-.h2-shape {
+.background-grey {
   background-color: #292A2E;
 }
 
-.products-bloc {
+.background-black{
   background-color: black;
-  display: flex;
-  flex-direction: column;
   color: white;
 }
+
 
 .product {
   height: 60vh;
   padding: 5vw;
   background: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   border-top: 1px solid white;
-  position: relative;
 }
-
-
 
 .product:not(:first-child),
 .product:not(:last-child) {
@@ -66,7 +73,6 @@ h2 {
 .product-images {
   height: 70%;
   background-color: black;
-  position: relative;
   z-index: 2;
   width: 100%;
   transition-duration: 2s;
@@ -74,7 +80,6 @@ h2 {
 
 .image-front-alone {
   height: 88%;
-  position: absolute;
   z-index: 5;
   margin: auto;
   left: 50%;
@@ -159,10 +164,7 @@ p {
   display: flex;
   flex-flow: column;
 }
-
-.news1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.45)), url("../medias/articles-images/article-1-armani-une-marque-italienne-de-luxe.png");
+.news {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5vh;
@@ -172,24 +174,18 @@ p {
   justify-content: center;
   color: white;
   text-align: center;
+}
+.news1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)), url("../medias/articles-images/article-1-armani-une-marque-italienne-de-luxe.png");
 }
 
 .news2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45),
     rgba(0, 0, 0, 0.45)), url("../medias/articles-images/article-2-de-nouvelles-montres-intelligentes.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 5vh;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
 }
 
-.news1 a,
-.news2 a {
+.news a{
   text-decoration: none;
   color: white;
 }
@@ -722,15 +718,12 @@ nav:not(.is-open) ul li {
 
 @media (min-width: 640px) {
 
-  video {
-    display: block;
-  }
 
   .banner-home-mobile {
     display: none;
   }
 
-  .products-bloc {
+  .background-black {
     flex-direction: row;
     justify-content: space-evenly;
   }
