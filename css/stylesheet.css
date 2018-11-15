@@ -872,3 +872,32 @@ nav:not(.is-open) ul li {
   
   }
 }
+
+@media (min-width: 800px){nav li {
+  font-size: 25px;
+}#navbar {
+  overflow: auto;
+  flex-direction: row;
+  align-items: baseline;
+  height: auto;
+  margin-top: 5px;
+
+}.flex-box-of-logo {
+  display: flex;
+  justify-content: center;
+}#nav{
+  z-index: 10;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}#nav {
+    width: 100vw;
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #000000d7, #43434300);
+    background: linear-gradient(to bottom, #000000d7, #43434300);
+}nav:not(.is-open) ul {
+  pointer-events: initial;
+}.open{
+  display: none;
+}
+}
