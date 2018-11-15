@@ -165,7 +165,6 @@ p {
 .articles {
   display: flex;
   flex-flow: column;
-
 }
 
 .news1 {
@@ -182,7 +181,6 @@ p {
   justify-content: center;
   color: white;
   text-align: center;
-  width: 50%;
 }
 
 .news2 {
@@ -199,7 +197,6 @@ p {
   justify-content: center;
   color: white;
   text-align: center;
-  width: 50%;
 }
 
 .news1 a, .news2 a {
@@ -688,11 +685,11 @@ nav {
       flex-flow: row;
     }
 
-   /* .product-images img{
-     width: auto;
-     height: auto;
-   } */
-
+    .news1, .news2 {
+      width: 50%;
+    }
+   
+    
   }
   
   @media (min-width: 400px) {
