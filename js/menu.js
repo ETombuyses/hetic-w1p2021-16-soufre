@@ -46,7 +46,7 @@ newsarticles.addEventListener('click', function() {
   navbar.classList.toggle('is-open');
 });
 home.addEventListener('click', function() {
-  navbar.classList.toggle('is-open');
+  navbar.classList.remove('is-open');
   watches.classList.remove('montreOption');
   news.classList.remove('News');
 });
