@@ -163,7 +163,7 @@ p {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url("../medias/article1.png");
+    ), url("../medias/articles-images/article-1-armani-une-marque-italienne-de-luxe.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5vh;
@@ -179,7 +179,7 @@ p {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url("../medias/article2.png");
+    ), url("../medias/articles-images/article-2-de-nouvelles-montres-intelligentes.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5vh;
