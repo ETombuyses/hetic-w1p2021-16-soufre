@@ -396,6 +396,11 @@ p {
   z-index: 2;
 }
 
+.parent-flex {
+display: flex;
+flex-flow: column;
+}
+
 .watch-image {
   width: 25vh;
   max-width: 100vw;
@@ -799,4 +804,9 @@ nav:not(.is-open) ul li {
   .background-image-home {
     display: none;
   }
+
+  .parent-flex {
+   
+    flex-flow: row;
+    }
 }
