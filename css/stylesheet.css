@@ -758,7 +758,22 @@ nav:not(.is-open) ul li {
     width: 50%;
   }
 
-  
+.parentflex {
+ display: flex;
+}
+
+.product-page-image {
+height: 100vh;
+width: 50vw;
+}
+
+.childflex, .brand-item {
+  width: 50vw;
+}
+
+.product-page-image img {
+  margin: auto;
+}
 }
 
 
