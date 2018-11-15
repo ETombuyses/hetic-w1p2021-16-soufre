@@ -730,7 +730,30 @@ nav {
       width: 50%;
     }
    
+    .article-background {
+      background-image: 
+     }
+      
+    .article {
+      display: flex;
+      flex-direction: row-reverse;
+    }
     
+    .h-article {
+      color:black;
+      font-family: "Champagne";
+      font-weight: bold;
+      font-size : 24px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
+    .p-article {
+      color : black;
+      font-family: "Avenir";
+      font-weight: bold;
+      padding: 30px;
+      text-align: left;
+    }
   }
   
   @media (min-width: 400px) {
@@ -743,3 +766,5 @@ nav {
       display: none;
     }
   }
+
+
