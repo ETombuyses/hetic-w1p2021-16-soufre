@@ -17,6 +17,15 @@ video {
   width: 100vw;
 }
 
+.videohome {
+  display: none;
+}
+
+.background-image-home {
+  display: block;
+  width: 100vw;
+}
+
 h2{
   font-size: 20px;
   font-weight: lighter;
@@ -672,5 +681,16 @@ nav {
     .articles {
       flex-flow: row;
     }
+
   }
   
+  @media (min-width: 400px) {
+
+    .videohome {
+      display: block;
+    }
+
+    .background-image-home {
+      display: none;
+    }
+  }
