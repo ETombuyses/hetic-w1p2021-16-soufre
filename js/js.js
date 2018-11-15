@@ -1,8 +1,9 @@
 /* pour la barre de navigation */
-var nav = document.getElementById('nav')
-var burgermenu = document.getElementById('open')
+var navbar = document.getElementById('nav');
+var burgermenu = document.getElementById('open');
+var watches = document.getElementById('ChoiceMontre');
 burgermenu.addEventListener('click', function() {
-  nav.classList.toggle('is-open');
+  navbar.classList.toggle('is-open');
   watches.classList.remove('montreOption');
   news.classList.remove('News');
 });
@@ -11,13 +12,13 @@ burgermenu.addEventListener('click', function() {
 /* pour que le menu se referme a chaque action */
 var home = document.getElementById('navaccueil');
 /**/
-var watches = document.getElementById('ChoiceMontre')
+
 var watchesopen = document.getElementById('navmontres');
-var productBack = document.getElementById('produitBack');
+var watchesproducts = document.getElementById('produitBack');
 /**/
 var news = document.getElementById('ChoiceArticle');
 var newsopen = document.getElementById('navArticle');
-var newsBack = document.getElementById('navBackNews');
+var newsarticles = document.getElementById('navBackNews');
 
 /**/
 watchesopen.addEventListener('click', function() {
@@ -27,10 +28,10 @@ news.classList.remove('News');
 
 
 
-productBack.addEventListener('click', function() {
-nav.classList.remove('is-open');
+watchesproducts.addEventListener('click', function() {
+navbar.classList.remove('is-open');
 watches.classList.remove('montreOption');
-newsBack.classList.remove('navArticle');
+newsarticles.classList.remove('navArticle');
 news.classList.remove('News');
 });
 /**/
@@ -38,22 +39,20 @@ news.classList.remove('News');
 newsopen.addEventListener('click', function() {
 news.classList.toggle('News');
 watches.classList.remove('montreOption');
-newsBack.classList.remove('navArticle');
+newsarticles.classList.remove('navArticle');
 news.classList.remove('montreOption');
 });
 
-newsBack.addEventListener('click', function() {
+newsarticles.addEventListener('click', function() {
 watches.classList.remove('montreOption');
 news.classList.remove('News');
-nav.classList.toggle('is-open');
+navbar.classList.toggle('is-open');
 });
 home.addEventListener('click', function() {
-  nav.classList.toggle('is-open');
+  navbar.classList.toggle('is-open');
   watches.classList.remove('montreOption');
   news.classList.remove('News');
 });
-
-
 
 
 /* pour changer entre montre homme ou femme */
