@@ -541,8 +541,6 @@ nav {
   position: sticky;  
   z-index: 10;
   background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #0a0a0ad8, #4343437e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000d8, #4343437e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 50px;
   width: 100vw;
   position: fixed;
@@ -550,6 +548,86 @@ nav {
   left: 0px;
   transition: background-color 1.5s,height 0.9s, width 0.9s, left 0.9s, bottom 0.9s, border-radius 1s;
   }
+  #logo-armani-nav {
+    width: 200px; 
+    height: 50px;
+  }
+  .flex-box-of-logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ nav li{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.829);
+    border-bottom:1px rgba(255, 255, 255, 0.623) solid;
+    padding-bottom: 20px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    font-size: 0px;
+    transition: font-size 1s;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav.is-open ul li{
+    font-size: 35px;
+  }
+/* NAV Quand on ouvre la partie Montre */
+#ChoiceMontre{
+  overflow: hidden;
+  height: 0px;
+  width: 0px;
+}
+#ChoiceMontre li{
+  font-size: 20px;
+  border: none;
+}
+#navmontres{
+  display: flex;
+  justify-content: center;
+}
+
+#ChoiceMontre.montreOption{
+  overflow: initial;
+  height: initial;
+  width: initial;
+}
+/* NAV  Quand on ouvre la partie News   */
+
+#ChoiceArticle{
+  overflow: hidden;
+  height: 0px;
+  width: 0px;
+}
+#ChoiceArticle li{
+  font-size: 20px;
+  border: none;
+}
+#ChoiceArticle{
+  display: flex;
+  justify-content: center;
+}
+
+#ChoiceArticle.News {
+  overflow: initial;
+  height: initial;
+  width: initial;
+}
   
   #logo-armani-nav {
     width: 200px; 
