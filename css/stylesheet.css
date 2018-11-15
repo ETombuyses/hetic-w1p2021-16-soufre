@@ -587,6 +587,7 @@ nav {
   nav.is-open ul li{
     font-size: 35px;
   }
+
 /* NAV Quand on ouvre la partie Montre */
 #ChoiceMontre{
   overflow: hidden;
