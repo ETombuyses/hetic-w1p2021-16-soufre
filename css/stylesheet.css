@@ -53,8 +53,8 @@ h2{
 }
 
 .product {
-height: 500px;
-padding: 30px;
+height: 60vh;
+padding: 5vw;
 background: black;
 display: flex;
 flex-direction: column;
@@ -94,7 +94,7 @@ position: relative;
 }
 
 .image-front img{
-  height: 100%;
+  height: 80%;
   position: absolute;
   z-index: 5;
   margin: auto;
@@ -707,8 +707,16 @@ nav {
     .products-bloc {
       flex-direction: row;
       justify-content: space-evenly;
-    
     }
+    .product:last-child {
+      margin-bottom: 0px;
+    }
+
+    .product {
+     height: 500px;
+    }
+
+    
     .gendermen, .genderwomen {
       display: none;
     }
