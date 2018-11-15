@@ -757,29 +757,36 @@ nav:not(.is-open) ul li {
   }
 
   .article-background {
-    background-image:
-  }
-
+    background-image: url("../medias/articles-images/armani-egerie-gauche.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+   }
+    
   .article {
     display: flex;
     flex-direction: row-reverse;
+    
   }
-
+  
   .h-article {
-    color: black;
+    color:black;
     font-family: "Champagne";
     font-weight: bold;
-    font-size: 24px;
+    font-size : 24px;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-right : 30px;
+    text-align: right;
+    
   }
-
   .p-article {
-    color: black;
+    color : black;
     font-family: "Avenir";
     font-weight: bold;
-    padding: 30px;
-    text-align: left;
+    padding-right: 30px;
+    text-align: right;
   }
 }
 
