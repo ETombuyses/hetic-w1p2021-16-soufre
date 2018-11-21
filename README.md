@@ -1,7 +1,9 @@
 # hetic-w1p2021-16-soufre
-Projet étudiant - semaine intensive
+Student project - intensive week
 
-Site Netlify : https://armani-soufre.netlify.com/
+Our first website developped within 3 days by teams of 5 persons
+Our client : Group 1 - Hydrogen
 
-Mode client/prestataire
-Notre client : Groupe 1 - Hydrogène
+https://armani-soufre.netlify.com/
+
+
